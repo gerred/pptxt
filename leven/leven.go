@@ -2,9 +2,9 @@ package leven
 
 import (
 	"fmt"
+	"github.com/asylumcs/pptxt/fileio"
+	"github.com/asylumcs/pptxt/wfreq"
 	"strings"
-	"pptxt/fileio"
-	"pptxt/wfreq"
 	"time"
 )
 

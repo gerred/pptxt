@@ -1,10 +1,10 @@
 package spellcheck
 
 import (
-	"strings"
+    "github.com/asylumcs/pptxt/fileio"
+    "github.com/asylumcs/pptxt/wfreq"
+    "strings"
 	"strconv"
-	"pptxt/wfreq"
-    "pptxt/fileio"
     "fmt"
     "sort"
     "time"

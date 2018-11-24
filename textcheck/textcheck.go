@@ -2,7 +2,7 @@ package textcheck
 
 import (
     "fmt"
-    "pptxt/fileio"
+    "github.com/asylumcs/pptxt/fileio"
     "time"
     "strings"
     "strconv"
