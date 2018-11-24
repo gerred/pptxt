@@ -115,6 +115,7 @@ func letterChecks(wb []string) {
     }       
 }
 
+/*
 // special situations only report if they find something
 func spacingCheck(wb []string) {
     count := 0
@@ -142,6 +143,7 @@ func spacingCheck(wb []string) {
         report("  no spacing errors reported.")
     }       
 }
+*/
 
 // special situations only report if they find something
 func specialSituations(wb []string) {
@@ -176,7 +178,7 @@ func Textcheck(pb []string, wb []string, runlog *[]string, fname string) {
     adjacentSpaces(wb)
     trailingSpaces(wb)
     letterChecks(wb)
-    spacingCheck(wb)
+    // spacingCheck(wb)
     specialSituations(wb)
 
     // generate logtext.txt from s
